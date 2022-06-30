@@ -1,0 +1,311 @@
+@charset "UTF-8";
+
+html {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  width: auto;
+}
+
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+}
+
+
+aside {
+  flex:1 1 18%;
+  min-width: 3rem;
+  position: fixed;
+  height:100vh;
+  top:0;
+  z-index: 100;
+  background-color: rgb(217,217,217);
+}
+
+.side_bar_list {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.side_bar_inner p{
+  font-size: 0.5rem;
+  text-align: center;
+  margin-top: -1.2rem;
+}
+
+.side_bar_list ul li {
+  line-height: 2.5rem
+}
+
+.side_bar_list ul li a {
+  color: black;
+}
+
+.side_bar_list ul li a:hover {
+  letter-spacing: 0.15em;
+}
+
+main {
+  flex:1 1 80%;
+  position: relative;
+}
+
+.header_wrapper .inner .side_bar_icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.top_main_background {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.top_main_background_icon {
+  display: block;
+  border-radius: 50%;
+  text-align: center;
+  width:12%;
+  height: 1.8%;
+  background-color: rgba(255,255,255,50%);
+  position: absolute;
+  top: 4%;
+  left: 49%;
+  text-align: center;
+  z-index: 1;
+}
+
+.top_main_background_icon p {
+  font-family: bold;
+  font-size:0.8rem
+}
+
+.section_inner h2{
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-left: 5rem;;
+}
+
+.section_inner_explanation {
+  text-align:  center;
+  padding-left: 8rem;
+  line-height: 3rem;
+  font-size: 2.1rem
+}
+
+.topic {
+  margin-top:5%;
+}
+
+.topic_photo_item {
+  display: block;
+  box-sizing:border-box;
+  height:auto;
+  width: 100%;
+}
+
+.topic_explanation_inner {
+  border: solid;
+  text-align: center;
+  padding-left: 6rem;
+  line-height: 3rem;
+  background-color: rgba(245,245,245)
+}
+
+.topic_explanation_inner h1 {
+  display: block;
+  font-family: bold;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.section_inner hr {
+  border-top:solid;
+  margin: 0 auto;
+  height: 20px;
+  width: 58rem;
+}
+
+
+.news_content  {
+  padding-left: 15rem;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+.news_content li {
+  margin-top:1rem;
+}
+
+.menu_content {
+  display: flex;
+  margin-bottom:1rem;
+  margin-left: 15%
+}
+
+.menu_description {
+  padding: 2rem;
+}
+
+.menu_photo1{
+  width: 50%;
+  background-image: url(/img/MENU/menuphoto1.webp);
+  background-size: cover;
+}
+
+.menu_photo2 {
+  width: 50%;
+  background-image: url(/img/MENU/menuphoto3.jpg);
+  background-size: cover;
+}
+
+.menu_photo3 {
+  width: 50%;
+  background-image: url(/img/MENU/menuphoto5.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu_description h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: bold;
+}
+
+.menu_description h4{
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  color:rgb(126,126,126);
+}
+
+.menu_description_topic {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  font-family: bold;
+}
+
+.menu_description hr{
+  width: 25rem;
+  margin-left:0;
+}
+
+.menu_description_topic_inner p{
+  text-align: center;
+  line-height: 2.4rem;
+}
+
+.menu_description_topic_inner_img {
+  width: 25rem;
+  height: 15rem;
+}
+
+.menu_description_topic_inner_img img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  margin-top:1.8rem;
+}
+
+#CONTACT {
+  background: rgba(78, 137, 105,47%);
+}
+
+#CONTACT h2  {
+  text-align: center;
+  padding: 2% 0;
+  font-size:1.8rem;
+}
+
+.form {
+  width: 70%;
+  margin: 0% auto;
+  padding:2%;
+}
+
+label {
+  display: inline-block;
+  width:30%;
+  line-height: 2;
+  font-family: bold;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 60%;
+  margin-bottom: 2.5%;
+  border: solid;
+  border-width: thin;
+}
+
+input {
+  padding: 1.4%;
+}
+
+textarea {
+  vertical-align: top;
+  height: 250px;
+}
+
+.button {
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn {
+  width: 10%;
+  padding: 1.5% 1%;
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  color: rgb(239, 225, 225);
+  background: #444;
+  line-height: 1;
+  border-radius: 50px;
+  transition: all 0.2s;
+}
+
+#footer {
+  background-color: rgb(126,126,126);
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.footer_inner {
+  text-align: center;
+}
+
+.footer_inner img {
+  display:inline-block;
+  width: 5%;
+  height: auto;
+  object-fit: cover;
+  position: relative;
+}
+
+.footer_inner p {
+  font-size: 0.5rem;
+}
