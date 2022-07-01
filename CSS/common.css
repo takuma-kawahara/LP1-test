@@ -17,17 +17,32 @@ li {
 
 .container {
   display: flex;
+  width: 100%;
 }
 
 
-aside {
-  flex:1 1 18%;
-  min-width: 3rem;
+header {
+  width : 10%;
+  min-width: 2rem;
   position: fixed;
   height:100vh;
   top:0;
   z-index: 100;
   background-color: rgb(217,217,217);
+}
+
+main {
+  margin-left :5.6rem;
+  width: 100%;
+  position: relative;
+}
+
+main .section {
+  margin-left: 10%;
+}
+
+footer {
+  margin-left: 10%;
 }
 
 .side_bar_list {
@@ -51,11 +66,6 @@ aside {
 
 .side_bar_list ul li a:hover {
   letter-spacing: 0.15em;
-}
-
-main {
-  flex:1 1 80%;
-  position: relative;
 }
 
 .header_wrapper .inner .side_bar_icon img {
@@ -131,32 +141,38 @@ main {
   margin-top: 1rem;
 }
 
-.section_inner hr {
-  border-top:solid;
-  margin: 0 auto;
-  height: 20px;
-  width: 58rem;
+.section_inner_list {
+  display: flex;
+  justify-content: center;
 }
 
-
 .news_content  {
-  padding-left: 15rem;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 6px;
+  margin-left: 4rem;
+  width: 78%;
+  padding-left: 1rem;
   padding-bottom: 1rem;
   text-align: left;
 }
 
 .news_content li {
-  margin-top:1rem;
+  margin-top:2rem;
 }
 
 .menu_content {
   display: flex;
   margin-bottom:1rem;
-  margin-left: 15%
+  margin-left: 3%
 }
 
 .menu_description {
   padding: 2rem;
+}
+
+.menu_description_topic_inner {
+  border-top: solid;
 }
 
 .menu_photo1{
