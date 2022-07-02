@@ -32,7 +32,7 @@ header {
 }
 
 main {
-  margin-left :5.6rem;
+  margin-left :6rem;
   width: 100%;
   position: relative;
 }
@@ -101,7 +101,7 @@ footer {
 }
 
 .section_inner h2{
-  font-size: 4rem;
+  font-size: 2rem;
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -111,8 +111,7 @@ footer {
 .section_inner_explanation {
   text-align:  center;
   padding-left: 8rem;
-  line-height: 3rem;
-  font-size: 2.1rem
+  font-size: 1.5rem
 }
 
 .topic {
@@ -130,7 +129,7 @@ footer {
   border: solid;
   text-align: center;
   padding-left: 6rem;
-  line-height: 3rem;
+  line-height: 1.8rem;
   background-color: rgba(245,245,245)
 }
 
@@ -158,7 +157,7 @@ footer {
 }
 
 .news_content li {
-  margin-top:2rem;
+  margin-top:1.5rem;
 }
 
 .menu_content {
@@ -197,21 +196,22 @@ footer {
 
 .menu_description h3 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: bold;
 }
 
 .menu_description h4{
   text-align: center;
   margin-top: 1.5rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color:rgb(126,126,126);
 }
 
 .menu_description_topic {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-top: 1.5rem;
+  margin-bottom: 1.2rem;
   font-family: bold;
 }
 
