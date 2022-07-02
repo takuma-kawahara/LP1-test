@@ -176,19 +176,19 @@ footer {
 
 .menu_photo1{
   width: 50%;
-  background-image: url(/img/MENU/menuphoto1.webp);
+  background-image: url(../img/MENU/menuphoto1.webp);
   background-size: cover;
 }
 
 .menu_photo2 {
   width: 50%;
-  background-image: url(/img/MENU/menuphoto3.jpg);
+  background-image: url(../img/MENU/menuphoto3.jpg);
   background-size: cover;
 }
 
 .menu_photo3 {
   width: 50%;
-  background-image: url(/img/MENU/menuphoto5.webp);
+  background-image: url(../img/MENU/menuphoto5.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
