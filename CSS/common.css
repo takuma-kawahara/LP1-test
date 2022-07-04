@@ -75,7 +75,7 @@ footer {
 }
 
 .top_main_background {
-  height: 100%;
+  height: 100vh;
   width: 100%;
   position: relative;
   z-index: 0;
@@ -101,15 +101,15 @@ footer {
 }
 
 .section_inner h2{
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1.3rem;
   margin-bottom: 2rem;
 }
 
 .section_inner_explanation {
   text-align:  center;
-  font-size: 1.5rem
+  font-size: 1.3rem
 }
 
 .topic { 
@@ -123,8 +123,9 @@ footer {
 .topic_photo_item {
   display: block;
   box-sizing:border-box;
-  height:60vh;
+  height: 60vh;
   width: 100%;
+  object-fit: cover;
 }
 
 .topic_explanation_inner {
@@ -152,6 +153,7 @@ footer {
 }
 
 .news_content  {
+  font-size: 0.8rem;
   border-top: solid;
   border-bottom: solid;
   border-width: 6px;
@@ -160,6 +162,7 @@ footer {
   padding-left: 1rem;
   padding-bottom: 1rem;
   text-align: left;
+  margin-bottom: 2rem;;
 }
 
 .news_content li {
@@ -169,7 +172,7 @@ footer {
 .menu_content {
   display: flex;
   width: 90%;
-  margin-bottom:1rem;
+  margin-bottom:2rem;
   margin-left:4rem;
 }
 
@@ -195,7 +198,10 @@ footer {
 .menu_photo2 {
   width: 100%;
   background-image: url(../img/MENU/menuphoto3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 .menu_photo3 {
@@ -250,13 +256,15 @@ footer {
 
 #CONTACT h2  {
   text-align: center;
-  padding: 2% 0;
+  padding-top :2rem;
   font-size:1.8rem;
 }
 
 .form {
   width: 70%;
-  margin: 0% auto;;
+  margin: 0% auto;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 label {
@@ -293,6 +301,9 @@ textarea {
   opacity: 0.7;
 }
 
+.c-btn {
+  padding-bottom: 0rem;
+}
 .btn {
   width: 10%;
   padding: 1.5% 1%;
