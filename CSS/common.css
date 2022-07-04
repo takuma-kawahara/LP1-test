@@ -31,6 +31,14 @@ header {
   background-color: rgb(217,217,217);
 }
 
+.header_wrapper {
+  height: 100vh;
+}
+
+.header_wrapper .inner {
+  height: 100%
+}
+
 main {
   margin-left :5.7rem;
   width: 100%;
@@ -45,9 +53,22 @@ footer {
   margin-left: 10%;
 }
 
-.side_bar_list {
+.side_bar_inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.side_bar {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.side_bar_list ul {
   text-align: center;
-  margin-top: 8rem;
 }
 
 .side_bar_inner p{
@@ -109,7 +130,11 @@ footer {
 
 .section_inner_explanation {
   text-align:  center;
-  font-size: 1.3rem
+  font-size: 1.6rem
+}
+
+.section_inner_explanation_one {
+  font-size: 1rem;
 }
 
 .topic { 
@@ -198,7 +223,7 @@ footer {
 .menu_photo2 {
   width: 100%;
   background-image: url(../img/MENU/menuphoto3.jpg);
-  background-position: center center;
+  background-position: center 18%;
   background-repeat: no-repeat;
   background-size: cover;
   
