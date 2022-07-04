@@ -22,7 +22,7 @@ li {
 
 
 header {
-  width : 10%;
+  width : 12%;
   min-width: 2rem;
   position: fixed;
   height:100vh;
@@ -32,7 +32,7 @@ header {
 }
 
 main {
-  margin-left :5rem;
+  margin-left :5.7rem;
   width: 100%;
   position: relative;
 }
@@ -85,12 +85,12 @@ footer {
   display: block;
   border-radius: 50%;
   text-align: center;
-  width:12%;
-  height: 1.8%;
+  width:15%;
+  height: 2.5%;
   background-color: rgba(255,255,255,50%);
   position: absolute;
   top: 4%;
-  left: 49%;
+  left: 44%;
   text-align: center;
   z-index: 1;
 }
@@ -103,14 +103,12 @@ footer {
 .section_inner h2{
   font-size: 2rem;
   text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  padding-left: 5rem;;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .section_inner_explanation {
   text-align:  center;
-  padding-left: 8rem;
   font-size: 1.5rem
 }
 
@@ -133,7 +131,6 @@ footer {
   height: 100%;
   border: solid;
   text-align: center;
-  padding-left: 6rem;
   line-height: 1.8rem;
   background-color: rgba(245,245,245)
 }
@@ -141,8 +138,12 @@ footer {
 .topic_explanation_inner h1 {
   display: block;
   font-family: bold;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   margin-top: 1rem;
+}
+
+.topic_explanation_inner p {
+  font-size: 1rem;
 }
 
 .section_inner_list {
@@ -154,7 +155,7 @@ footer {
   border-top: solid;
   border-bottom: solid;
   border-width: 6px;
-  margin-left: 4rem;
+  margin-left: 1rem;
   width: 78%;
   padding-left: 1rem;
   padding-bottom: 1rem;
@@ -222,7 +223,6 @@ footer {
   text-align: center;
   font-size: 1.1rem;
   margin-top: 1.3rem;
-  margin-bottom: 1.2rem;
   font-family: bold;
 }
 
@@ -256,8 +256,7 @@ footer {
 
 .form {
   width: 70%;
-  margin: 0% auto;
-  padding:2%;
+  margin: 0% auto;;
 }
 
 label {
