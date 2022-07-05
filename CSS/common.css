@@ -17,12 +17,13 @@ li {
 
 .container {
   display: flex;
+  justify-content: space-between;
   width: 100%;
 }
 
 
 header {
-  width : 12%;
+  width: 13%;
   min-width: 2rem;
   position: fixed;
   height:100vh;
@@ -40,18 +41,11 @@ header {
 }
 
 main {
-  margin-left :5.7rem;
-  width: 100%;
+  right: 0%;
+  width: 87%;
   position: relative;
 }
 
-main .section {
-  margin-left: 10%;
-}
-
-footer {
-  margin-left: 10%;
-}
 
 .side_bar_inner {
   position: absolute;
@@ -86,7 +80,7 @@ footer {
 }
 
 .side_bar_list ul li a:hover {
-  letter-spacing: 0.15em;
+  letter-spacing: 0.05em;
 }
 
 .header_wrapper .inner .side_bar_icon img {
